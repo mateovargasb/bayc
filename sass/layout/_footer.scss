@@ -1,0 +1,218 @@
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color:#000;
+}
+
+.footer-line {
+    max-width:90%;
+}
+
+.line {
+    border-bottom:1px solid #fff;
+    display:block;
+    padding-top:30px;
+    margin:0;
+}
+
+
+// GET ON THE LIST //
+.email-container {
+    padding-top:2rem;
+    padding-bottom:2rem;
+    text-align:center;
+}
+
+.email-label {
+    font-weight:600;
+    font-size:20px;
+    font-style:italic;
+    color:#fff;
+}
+
+.email-flex {
+    padding-top:20px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.email-form {
+    display:flex;
+    width:80%;
+    margin:auto;
+}
+
+input {
+    background-color:#272626;
+    border:0ch;
+    padding:10px;
+    width:80%;
+    margin-top:10px;
+    color:white;
+    caret-color:auto;
+}
+::placeholder {
+    font-size:12px;
+    font-style:italic;
+    color:#dbdbdb;
+}
+input:focus {
+    outline:none;
+}
+
+.email-input-text {
+    width:100%;
+}
+
+.email-submit {
+    background-color:#4b4a4a;
+    border:0ch;
+    padding:10px 20px 10px 20px;
+    color:#fff;
+    caret-color:transparent;
+    transition:.3s;
+}
+.email-submit:active {
+    background-color:#bfc500;
+    color:#000;
+}
+
+.email-flex button:hover {
+    background-color:#bfc500;
+    color:#000;
+}
+
+// FOOTER LOGO //
+.footer-logo {
+    display:flex;
+    margin:auto;
+    margin-top:calc(-1 * 200px / 2);
+    max-width:200px;
+    max-height:200px
+}
+
+// SOCIAL //
+.social-icon {
+    color: white;
+    padding:20px 10px;
+}
+
+.social-icon:hover {
+    color:#bfc500;
+}
+
+// COPYRIGHT //
+.copyright {
+    font-size:10px;
+    color:#fff;
+    line-height:2;
+}
+
+.text-right {
+    font-size: 10px;
+}
+
+.copy-left {
+    float:left;
+}
+
+.link {
+    color:#bfc500;
+    text-decoration:underline;
+    word-wrap:break-word;
+}
+.link:hover {
+    color:#fff
+}
+
+.last-line {
+    border-bottom:15px solid #bfc500;
+    display:block;
+    padding-top:30px;
+    max-width:100%;
+}
+
+@media (min-width:768px) {
+    .footer-logo {
+        margin-top:calc(-1 * 200px / 2);
+        max-width:200px;
+        max-height:200px;
+    }
+}
+
+@media (min-width:992px) {
+    .footer-padding {
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .line {
+        margin:auto;
+        margin-left:-2%;
+        width:104%;
+    }
+
+    // GET ON THE LIST 992px //
+    .email-container {
+        padding:0%;
+        text-align:left;
+    }
+
+    .email-label {
+        font-weight:600;
+        font-size:13px;
+        font-style:italic;
+        color:#fff;
+    }
+
+    .email-flex {
+        margin-left:0;
+        margin-right:0;
+        padding-top:10px;
+    }
+
+    .email-form {
+        margin:unset;
+    }
+
+    ::placeholder {
+        font-size:10px;
+    }
+
+    .email-input-text {
+        padding:2px;
+        padding-left:10px;
+    }
+
+    .email-submit {
+        padding:10px;
+        line-height:0;
+    }
+
+    // FOOTER LOGO 992px //
+    .footer-logo {
+        margin-top:0%
+    }
+
+    // SOCIAL 992px //
+    .social-icon {
+        color:#fff;
+        padding:20px;
+    }
+
+.social-icon:hover {
+    color:#bfc500
+}
+
+    // COPYRIGHT 992px //
+    .copy-left {
+        float:right;
+    }
+
+    // LAST LINE 992px //
+    .last-line {
+        padding-top:0%;
+    }
+}

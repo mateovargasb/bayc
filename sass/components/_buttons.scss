@@ -1,0 +1,40 @@
+$colors: (
+    primary:#bfc500,
+    secondary:#000,
+);
+
+@mixin colors ($background-color, $color) {
+    background-color: $background-color;
+    color: $color;
+}
+
+.generic-button {
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    padding: 5%;
+    margin: auto auto;
+    transition: .3s;
+}
+
+.bayc-button {
+    background-color: map-get($colors, primary);
+    color: map-get($colors, secondary);
+    @extend .generic-button;
+
+    &:hover {
+        color:map-get($colors, secondary);
+        background-color:white;
+    }
+}
+
+.mint {
+    @include colors (map-get($colors, secondary), map-get($colors, primary));
+    font-weight: 600;
+
+    &:hover {
+        color: map-get($colors, secondary);
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,70 @@
+.custom-logo {
+    width:300px;
+    position:relative;
+    margin-bottom:-37px;
+    z-index:1;
+}
+
+.social-icon {
+    color:#fff;
+    padding:20px 10px;
+    transition:.3s;
+}
+
+.social-icon:hover {
+    caret-color:transparent;
+    color:#bfc500;
+}
+
+@media (min-width:992px) {
+    .social-icons {
+        margin:auto;
+        margin-bottom:-15px;
+    }
+    
+    .social-icon {
+        padding:20px;
+    }   
+}
+
+.welcome {
+    background-color:#000;
+}
+
+@media (min-width: 992px) {
+    .welcome {
+        margin-top:-266px;
+    }
+}
+
+@media (min-width:1200px) {
+    .welcome {
+        margin-top:-269px;
+    }
+}
+
+.scroll {
+    opacity:.25;
+    font-size:.7em;
+    font-family: "Montserrat";
+    font-weight:500;
+    font-style:italic;
+    color:#fff;
+    letter-spacing:.05em;
+    line-height:.6em;
+    animation:blinker 1.3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity:70;
+    }
+}
+
+.rotate {
+    position:absolute;
+    transform:translateX(-50%) translateY(-50%) rotate(-90deg);
+    width:max-content;
+    top:50%;
+    left:50%;
+}

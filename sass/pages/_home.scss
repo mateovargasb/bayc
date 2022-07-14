@@ -1,0 +1,78 @@
+.welcome-title {
+    font-size:1.8em;
+    font-weight:900;
+    font-style: italic;
+}
+
+.fair-title {
+    color:#bfc500;
+    font-style:italic;
+    font-weight:500;
+    font-size:1.6em
+}
+
+.ponzi {
+    font-size:1.05em;
+    font-weight:500;
+    font-style:italic;
+}
+
+.note {
+    font-size:.8em;
+    font-weight:200;
+    font-style:italic;
+}
+
+.buy-token-container * {
+    color:#000;
+    text-align:center;
+}
+
+.bayc-bg {
+    background-color:#bfc500;
+}
+
+.buy-ape-title {
+    font-size:1.5em;
+    font-weight:800;
+    font-style:italic;
+}
+
+.common-p {
+    text-align:justify;
+    font-size:1em;
+}
+
+@media only screen and (min-width: 768px) {
+    .icon-container {
+        height:175px;
+    }
+}
+
+.toilet {
+    height:300px;
+}
+
+.goal {
+    color:#bfc500;
+    font-weight:500;
+    font-style:italic;
+    font-size:1em
+}
+
+.shirt-container {
+    max-width:80% !important;
+    background-color:#bfc500;
+}
+
+.shirt-mask {
+    max-width:100%;
+    opacity:0%;
+}
+
+.shirt {
+    position:absolute;
+    top:-8%;
+    left:-5%;
+    max-width:114%;
+}
